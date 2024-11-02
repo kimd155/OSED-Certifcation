@@ -1,10 +1,10 @@
 # OSED-Certifcation
 This repository containing my journey and resources for Offensive Security Exploit Developer (OSED) certification. Includes exploit development scripts, reverse engineering notes, and custom PoCs crafted during the course.
 ***
-# Cheat Sheet
+# 📔 Cheat Sheet
 
 ## 1. Stack-Based Buffer Overflow
-   - **Key Terms**:
+   - **🔑 Key Terms**:
      - **EIP (Extended Instruction Pointer)**: Controls program execution flow.
      - **ESP (Extended Stack Pointer)**: Points to the top of the stack.
      - **NOP Sled**: Sequence of `NOP` instructions (`\x90`) to land the shellcode.
@@ -19,7 +19,7 @@ This repository containing my journey and resources for Offensive Security Explo
      ```
 
 ## 2. Structured Exception Handler (SEH) Overwrite
-   - **Key Terms**:
+   - **🔑 Key Terms**:
      - **SEH (Structured Exception Handler)**: Handles program exceptions and can be exploited for buffer overflows.
      - **POP POP RET**: Common SEH exploit technique for jumping to shellcode.
    - **Steps**:
@@ -45,7 +45,7 @@ This repository containing my journey and resources for Offensive Security Explo
      ```
 
 ## 4. ROP (Return-Oriented Programming)
-   - **Key Terms**:
+   - **🔑 Key Terms**:
      - **Gadgets**: Small pieces of code ending in `RET` found in memory, chained together for exploitation.
      - **ROP Chain**: Series of gadgets used to bypass protections like DEP.
    - **Steps**:
